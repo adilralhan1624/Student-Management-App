@@ -37,7 +37,7 @@ class _StudentFormPageState extends State<StudentFormPage> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _cgpaController = TextEditingController();
 
-  final String baseUrl = "http://192.168.1.7/student_api";
+  final String baseUrl = "http://YOUR_IP_HERE/student_api";
 
   bool _isLoading = false;
   List<dynamic> _students = [];
